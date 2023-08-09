@@ -1,0 +1,315 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Banner  Start*/
+.banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background: var(--background-image, var(--background-gradient, var(--background-color)));
+}
+
+#banner .container {
+    padding: 0 !important;
+}
+
+.banner_photo_wrapper {
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.banner_photo_blurred_wrapper {
+    height: 174px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.banner_photo_blurred {
+    display: none;
+    height: 195px;
+    margin-left: -5%;
+    margin-top: -10px;
+    object-fit: cover;
+    width: 110%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    filter: blur(8px);
+    transform: scale(1.2);
+}
+
+.banner_photo_content {
+    animation: none;
+    max-width: 991px;
+    width: 100%;
+    max-height: 174px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+}
+
+.banner_photo {
+    animation: ella-animate-cover-photo 1s ease-in-out backwards;
+    max-width: 991px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes ella-animate-cover-photo {
+    0% {
+        padding-bottom: 100px;
+        transform: scale(2);
+        animation-timing-function: ease-out;
+    }
+
+    100% {
+        padding-bottom: 0;
+        transform: scale(1);
+    }
+}
+
+/* Profile */
+.profile {
+    background: linear-gradient(180deg, var(--background-color) 0%, var(--background-color) 53%, transparent 53%);
+    display: inline-flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    margin-top: -90px;
+    width: 132px;
+    height: 132px;
+}
+
+.profile_image {
+    animation: ella-animate-profile-photo 0.8s 0.2s backwards;
+    display: inline-flex;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    z-index: 999;
+}
+
+@keyframes ella-animate-profile-photo {
+    0% {
+        transform: scale(0);
+    }
+
+    80% {
+        transform: scale(1.1);
+        animation-timing-function: ease-out;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.profile_image img {
+    width: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+/* Banner End*/
+
+/* Profile Info Start */
+.profile_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_info h1,
+.profile_info h2 {
+    animation: ella-animate-name 0.3s 0.5s backwards;
+    overflow: hidden;
+}
+
+.social_links {
+    width: 200px;
+    margin: 20px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social_links svg {
+    animation: ella-animate-social 0.3s 0.7s backwards;
+    font-size: 20px;
+}
+
+@keyframes ella-animate-name {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes ella-animate-social {
+    0% {
+        transform: scale(0);
+    }
+
+    95% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Profile Info End */
+
+/* Links Start */
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 485px;
+    margin: 21px auto;
+    --animation-timing: calc(var(--animation-delay) / 5);
+    animation: ella-animate-link 0.8s backwards;
+}
+
+.links div {
+    --animation-timing: calc(var(--animation-delay) / 5);
+    width: 100%;
+}
+
+.links div a {
+    --animation-delay: 1s;
+    animation: ella-animate-link 0.8s backwards;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.08);
+    font-size: 14px;
+    line-height: 18px;
+    margin: 16px 0;
+    min-height: 64px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.links div a p {
+    margin: 0;
+}
+
+.links .links_center a {
+    justify-content: center;
+}
+
+.links div img {
+    box-shadow: 0px 6px 28px rgba(0, 0, 0, 0.12);
+    object-fit: cover;
+    border-radius: 2px;
+    margin-right: 8px;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    display: block;
+}
+
+@keyframes ella-animate-link {
+    0% {
+        top: 60px;
+        transform: scale(0);
+    }
+
+    100% {
+        top: 0;
+        transform: scale(1);
+    }
+}
+
+/* Links End */
+/* Footer Start */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 60px;
+    z-index: 10000;
+}
+
+.footer a {
+    align-items: center;
+    border-radius: 48px;
+    border: 1px solid rgba(30, 30, 30, 0.2);
+    box-sizing: border-box;
+    color: #000000;
+    display: flex;
+    font-size: 14pxpx;
+    letter-spacing: 0.2px;
+    margin: 0 25px;
+    display: flex;
+    height: 100%;
+    padding: 8px 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer a svg {
+    font-size: 20px;
+}
+
+.footer a p {
+    font-size: 10px;
+    margin: 0 20px;
+}
+
+/* Footer End */
+/* Responsive */
+@media only screen and (max-width: 990px) and (min-width: 375px) {
+    .curved {
+        position: relative;
+        background: url("../../../assets/img/banner-background-image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+    }
+
+    .curved::after {
+        content: '';
+        border-top-left-radius: 50% 100%;
+        border-top-right-radius: 50% 100%;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: #f9f9f9;
+        height: 50%;
+    }
+
+    .banner {
+        position: unset;
+    }
+    .banner_photo_wrapper {
+        display: none;
+    }
+
+    .profile {
+        position: absolute;
+        bottom: 25%;
+    }
+}
