@@ -1,12 +1,27 @@
 Find Index
 Find
 Promise
-CallBack
-Async
-Await
+CallBack:
+Return A function,
+increase the perfomance fo react application,
+In React.js, a callback function is a function that is passed as a parameter to another function or component. It's used to allow one component to communicate with or trigger actions in another component. Callback functions are commonly used in scenarios like handling events, passing data between parent and child components, and managing asynchronous operations.
+callback functions like event handlers inside a component are re-created as unique function objects at every re-render of the component.
+
+Spread Operator,
+Async:
+Declare a async with function
+make a function return a promise,
+many pieces of code in it, we wait for their return value,
+
+Await:
+The await keyword can only be used inside an async function.,
+await make a function wait a promise.
+
 Hook Statement,
 props,
+asynchronous,
 react Desructuring,
+error handling,
 ternary operator,
 spread operator,
 modules,
