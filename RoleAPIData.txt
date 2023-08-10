@@ -1,0 +1,1258 @@
+{
+    "data": [
+        {
+            "id": 21,
+            "name": "Admimistrator",
+            "description": "descripotion",
+            "users": [],
+            "modules": [
+                {
+                    "id": 1,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Users Management",
+                    "icon": "icon",
+                    "slug": "users_management",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "children": [
+                        {
+                            "id": 2,
+                            "category_id": null,
+                            "module_id": 1,
+                            "name": "Users",
+                            "icon": "icon",
+                            "slug": "users",
+                            "active": 1,
+                            "created_at": "2023-01-05T12:00:00.000000Z",
+                            "updated_at": "2023-01-05T12:00:00.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 1,
+                                    "name": "Create"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "QAQAQA@gmail.com",
+            "description": "Creating a Confusion Matrix\nimport numpy.\nactual = numpy.random.binomial(1, 0.9, size = 1000) predicted = numpy.random.binomial(1, 0.9, size = 1000)\nfrom sklearn import metrics.\ncm_display = metrics.ConfusionMatrixDisplay(confusion_matrix = confusion_matrix, display_labels = [False, True])\nimport matplotlib.pyplot as plt.",
+            "users": [],
+            "modules": [
+                {
+                    "id": 1,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Users Management",
+                    "icon": "icon",
+                    "slug": "users_management",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "children": [
+                        {
+                            "id": 3,
+                            "category_id": null,
+                            "module_id": 1,
+                            "name": "Roles",
+                            "icon": "icon",
+                            "slug": "roles",
+                            "active": 1,
+                            "created_at": "2023-01-05T12:00:00.000000Z",
+                            "updated_at": "2023-01-05T12:00:00.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Promotions",
+                    "icon": "icon",
+                    "slug": "promotions",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 12,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Products Management",
+                    "icon": "icon",
+                    "slug": "products_management",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "children": [
+                        {
+                            "id": 13,
+                            "category_id": null,
+                            "module_id": 12,
+                            "name": "Products",
+                            "icon": "icon",
+                            "slug": "products",
+                            "active": 1,
+                            "created_at": "2023-01-05T17:08:47.000000Z",
+                            "updated_at": "2023-01-05T17:08:49.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Countries",
+                    "icon": "icon",
+                    "slug": "countries",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "PYTYHON",
+            "description": "Creating a Confusion Matrix\nimport numpy.\nactual = numpy.random.binomial(1, 0.9, size = 1000) predicted = numpy.random.binomial(1, 0.9, size = 1000)\nfrom sklearn import metrics.\ncm_display = metrics.ConfusionMatrixDisplay(confusion_matrix = confusion_matrix, display_labels = [False, True])\nimport matplotlib.pyplot as plt.",
+            "users": [],
+            "modules": [
+                {
+                    "id": 1,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Users Management",
+                    "icon": "icon",
+                    "slug": "users_management",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "children": [
+                        {
+                            "id": 2,
+                            "category_id": null,
+                            "module_id": 1,
+                            "name": "Users",
+                            "icon": "icon",
+                            "slug": "users",
+                            "active": 1,
+                            "created_at": "2023-01-05T12:00:00.000000Z",
+                            "updated_at": "2023-01-05T12:00:00.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 1,
+                                    "name": "Create"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Promotions",
+                    "icon": "icon",
+                    "slug": "promotions",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 16,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Languages",
+                    "icon": "icon",
+                    "slug": "languages",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 18,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Resellers",
+                    "icon": "icon",
+                    "slug": "resellers",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "GFGF",
+            "description": "Creating a Confusion Matrix\nimport numpy.\nactual = numpy.random.binomial(1, 0.9, size = 1000) predicted = numpy.random.binomial(1, 0.9, size = 1000)\nfrom sklearn import metrics.\ncm_display = metrics.ConfusionMatrixDisplay(confusion_matrix = confusion_matrix, display_labels = [False, True])\nimport matplotlib.pyplot as plt.",
+            "users": [],
+            "modules": [
+                {
+                    "id": 12,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Products Management",
+                    "icon": "icon",
+                    "slug": "products_management",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "children": [
+                        {
+                            "id": 13,
+                            "category_id": null,
+                            "module_id": 12,
+                            "name": "Products",
+                            "icon": "icon",
+                            "slug": "products",
+                            "active": 1,
+                            "created_at": "2023-01-05T17:08:47.000000Z",
+                            "updated_at": "2023-01-05T17:08:49.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 4,
+                                    "name": "Delete"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Languages",
+                    "icon": "icon",
+                    "slug": "languages",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "TOP TEN",
+            "description": "Creating a Confusion Matrix\nimport numpy.\nactual = numpy.random.binomial(1, 0.9, size = 1000) predicted = numpy.random.binomial(1, 0.9, size = 1000)\nfrom sklearn import metrics.\ncm_display = metrics.ConfusionMatrixDisplay(confusion_matrix = confusion_matrix, display_labels = [False, True])\nimport matplotlib.pyplot as plt.",
+            "users": [
+                {
+                    "id": 7,
+                    "user_id": 1,
+                    "role_id": 13,
+                    "name": "sara",
+                    "email": "sara@yumyapps.com",
+                    "email_verified_at": null,
+                    "ip_address": "103.188.92.50",
+                    "created_at": "2023-06-07T10:48:08.000000Z",
+                    "updated_at": "2023-07-11T08:09:44.000000Z"
+                }
+            ],
+            "modules": [
+                {
+                    "id": 5,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Publishable",
+                    "icon": "icon",
+                    "slug": "publishable",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 6,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "App Configurations",
+                    "icon": "icon",
+                    "slug": "app_configurations",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "children": [
+                        {
+                            "id": 7,
+                            "category_id": null,
+                            "module_id": 6,
+                            "name": "Parent App Setup",
+                            "icon": "icon",
+                            "slug": "parent_app_setup",
+                            "active": 1,
+                            "created_at": "2023-01-05T12:00:00.000000Z",
+                            "updated_at": "2023-01-05T12:00:00.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 4,
+                                    "name": "Delete"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Resellers",
+                    "icon": "icon",
+                    "slug": "resellers",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "MCCC",
+            "description": "Creating a Confusion Matrix\nimport numpy.\nactual = numpy.random.binomial(1, 0.9, size = 1000) predicted = numpy.random.binomial(1, 0.9, size = 1000)\nfrom sklearn import metrics.\ncm_display = metrics.ConfusionMatrixDisplay(confusion_matrix = confusion_matrix, display_labels = [False, True])\nimport matplotlib.pyplot as plt.",
+            "users": [],
+            "modules": [
+                {
+                    "id": 5,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Publishable",
+                    "icon": "icon",
+                    "slug": "publishable",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 6,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "App Configurations",
+                    "icon": "icon",
+                    "slug": "app_configurations",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "children": [
+                        {
+                            "id": 7,
+                            "category_id": null,
+                            "module_id": 6,
+                            "name": "Parent App Setup",
+                            "icon": "icon",
+                            "slug": "parent_app_setup",
+                            "active": 1,
+                            "created_at": "2023-01-05T12:00:00.000000Z",
+                            "updated_at": "2023-01-05T12:00:00.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "KFC",
+            "description": "!@#$%^&*()OLKMN ZASDFGHJUKIMNBVCQWERTYUIOKJHBGVC",
+            "users": [],
+            "modules": [
+                {
+                    "id": 1,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Users Management",
+                    "icon": "icon",
+                    "slug": "users_management",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "children": [
+                        {
+                            "id": 3,
+                            "category_id": null,
+                            "module_id": 1,
+                            "name": "Roles",
+                            "icon": "icon",
+                            "slug": "roles",
+                            "active": 1,
+                            "created_at": "2023-01-05T12:00:00.000000Z",
+                            "updated_at": "2023-01-05T12:00:00.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Emails",
+                    "icon": "icon",
+                    "slug": "emails",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 18,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Resellers",
+                    "icon": "icon",
+                    "slug": "resellers",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "OPTP",
+            "description": "tty645647658o8hyjngcfhnx@#$%^&*()",
+            "users": [],
+            "modules": [
+                {
+                    "id": 9,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Emails",
+                    "icon": "icon",
+                    "slug": "emails",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 11,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Junior App Release",
+                    "icon": "icon",
+                    "slug": "jr_app_release",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 18,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Resellers",
+                    "icon": "icon",
+                    "slug": "resellers",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "CS Dep.",
+            "description": "noun. thnoun. the means by which the presence, quality, or genuineness of anything is determined; a means of trial. the trial of the quality of something: to put to the test.e means by which the presence, quality, or genuineness of anything is determined; a means of trial. the trial of the quality of something: to put to the test.https://www.google.com/search?q=test&rlz=1C1UEAD_enPK1020PK1021&oq=tes&gs_lcrp=EgZjaHJvbWUqDQgBEAAYgwEYsQMYgAQyBggAEEUYOTINCAEQABiDARixAxiABDIQCAIQLhjHARixAxjRAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDIGCAYQRRhBMgYIBxBFGD3SAQg1OTE5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
+            "users": [],
+            "modules": [
+                {
+                    "id": 4,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Push Notifications",
+                    "icon": "icon",
+                    "slug": "push_notifications",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 5,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Publishable",
+                    "icon": "icon",
+                    "slug": "publishable",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 10,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Promotions",
+                    "icon": "icon",
+                    "slug": "promotions",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 16,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Languages",
+                    "icon": "icon",
+                    "slug": "languages",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 17,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Countries",
+                    "icon": "icon",
+                    "slug": "countries",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "QA Tester",
+            "description": "noun. the means by which the presence, quality, or genuineness of anything is determined; a means of trial. the trial of the quality of something: to put to the test.",
+            "users": [],
+            "modules": [
+                {
+                    "id": 1,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Users Management",
+                    "icon": "icon",
+                    "slug": "users_management",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "children": [
+                        {
+                            "id": 2,
+                            "category_id": null,
+                            "module_id": 1,
+                            "name": "Users",
+                            "icon": "icon",
+                            "slug": "users",
+                            "active": 1,
+                            "created_at": "2023-01-05T12:00:00.000000Z",
+                            "updated_at": "2023-01-05T12:00:00.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 1,
+                                    "name": "Create"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Update"
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Delete"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": 3,
+                            "category_id": null,
+                            "module_id": 1,
+                            "name": "Roles",
+                            "icon": "icon",
+                            "slug": "roles",
+                            "active": 1,
+                            "created_at": "2023-01-05T12:00:00.000000Z",
+                            "updated_at": "2023-01-05T12:00:00.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 1,
+                                    "name": "Create"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Update"
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Delete"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Push Notifications",
+                    "icon": "icon",
+                    "slug": "push_notifications",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 5,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Publishable",
+                    "icon": "icon",
+                    "slug": "publishable",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 6,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "App Configurations",
+                    "icon": "icon",
+                    "slug": "app_configurations",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "children": [
+                        {
+                            "id": 7,
+                            "category_id": null,
+                            "module_id": 6,
+                            "name": "Parent App Setup",
+                            "icon": "icon",
+                            "slug": "parent_app_setup",
+                            "active": 1,
+                            "created_at": "2023-01-05T12:00:00.000000Z",
+                            "updated_at": "2023-01-05T12:00:00.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 1,
+                                    "name": "Create"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Update"
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Delete"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": 8,
+                            "category_id": null,
+                            "module_id": 6,
+                            "name": "Jr. App Setup",
+                            "icon": "icon",
+                            "slug": "jr_app_setup",
+                            "active": 1,
+                            "created_at": "2023-01-05T12:00:00.000000Z",
+                            "updated_at": "2023-01-05T12:00:00.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 1,
+                                    "name": "Create"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Update"
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Delete"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Emails",
+                    "icon": "icon",
+                    "slug": "emails",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 10,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Promotions",
+                    "icon": "icon",
+                    "slug": "promotions",
+                    "active": 1,
+                    "created_at": "2023-01-05T12:00:00.000000Z",
+                    "updated_at": "2023-01-05T12:00:00.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 11,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Junior App Release",
+                    "icon": "icon",
+                    "slug": "jr_app_release",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 12,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Products Management",
+                    "icon": "icon",
+                    "slug": "products_management",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "children": [
+                        {
+                            "id": 13,
+                            "category_id": null,
+                            "module_id": 12,
+                            "name": "Products",
+                            "icon": "icon",
+                            "slug": "products",
+                            "active": 1,
+                            "created_at": "2023-01-05T17:08:47.000000Z",
+                            "updated_at": "2023-01-05T17:08:49.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 1,
+                                    "name": "Create"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Update"
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Delete"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": 14,
+                            "category_id": null,
+                            "module_id": 12,
+                            "name": "Plans",
+                            "icon": "icon",
+                            "slug": "plans",
+                            "active": 1,
+                            "created_at": "2023-01-05T17:08:47.000000Z",
+                            "updated_at": "2023-01-05T17:08:49.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 1,
+                                    "name": "Create"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Update"
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Delete"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "id": 15,
+                            "category_id": null,
+                            "module_id": 12,
+                            "name": "Features",
+                            "icon": "icon",
+                            "slug": "features",
+                            "active": 1,
+                            "created_at": "2023-01-05T17:08:47.000000Z",
+                            "updated_at": "2023-01-05T17:08:49.000000Z",
+                            "permissions": [
+                                {
+                                    "id": 1,
+                                    "name": "Create"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Read"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Update"
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Delete"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Languages",
+                    "icon": "icon",
+                    "slug": "languages",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 17,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Countries",
+                    "icon": "icon",
+                    "slug": "countries",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 18,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Resellers",
+                    "icon": "icon",
+                    "slug": "resellers",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "id": 19,
+                    "category_id": null,
+                    "module_id": null,
+                    "name": "Prepaid Codes",
+                    "icon": "icon",
+                    "slug": "prepaid_codes",
+                    "active": 1,
+                    "created_at": "2023-01-05T17:08:47.000000Z",
+                    "updated_at": "2023-01-05T17:08:49.000000Z",
+                    "permissions": [
+                        {
+                            "id": 1,
+                            "name": "Create"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Read"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Update"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Delete"
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "total": 10,
+    "links": {
+        "first": "https://stgconsole-api.familytime.io/roles?page=1",
+        "last": "https://stgconsole-api.familytime.io/roles?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://stgconsole-api.familytime.io/roles?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://stgconsole-api.familytime.io/roles",
+        "per_page": 15,
+        "to": 10,
+        "total": 10
+    }
+}
