@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link href="assest/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="assest/css/responsive.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Header Start -->
+  <header>
+    <img src="./assest/images/logo.svg" alt="logo" />
+    <div>
+      <ul>
+        <li id="signupBtn">Word lid</li>
+        <li class="active" id="LoginBtn">leden</li>
+      </ul>
+    </div>
+  </header>
+  <!-- Header Close -->
+  <main>
+    <!-- Banner Section Start -->
+    <section class="main-section">
+      <div class="container">
+        <h1>Speel op een hoger niveau</h1>
+        <h2>Stop met verliezen, join de alpha’s, beat the system</h2>
+        <div class="left-align">
+          <a href="#" class="themeBtn">probeer gratis</a>
+        </div>
+      </div>
+    </section>
+    <!-- Banner Section Close -->
+
+    <!-- Feature Section Start -->
+    <section class="features">
+      <div class="container">
+        <div class="feature-main">
+          <div class="feature">
+            <img src="./assest/images/Natural.svg" alt="Natural" />
+            <h2>klik en klaar</h2>
+            <p>Met Alphabetting plaats je in een oogwenk weddenschappen.</p>
+          </div>
+
+          <div class="feature">
+            <img src="./assest/images/Banknotes.svg" alt="Banknotes" />
+            <h2>Samen naar succes</h2>
+            <p>Word lid van onze Alphabetting-gemeenschap, waar leden elkaar helpen en samen groeien.</p>
+          </div>
+
+          <div class="feature">
+            <img src="./assest/images/MoneyBox.svg" alt="MoneyBox" />
+            <h2>Voorsprong op wedkantoren</h2>
+            <p>Blijf altijd een stap voor met ons geavanceerde algoritme dat duizenden weddenschappen razendsnel
+              analyseert.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Feature Section Close -->
+
+    <!-- OverAll Section Start -->
+    <section class="overall">
+      <div class="about-inner">
+        <img src="./assest/images/about-two.svg" alt="about-two" />
+
+        <div class="right-side">
+          <h2>Overal Alphabetten</h2>
+          <p>
+            Of je nu een wedstrijd volgt, door Instagram scrolt of uit een
+            vliegtuig springt, het maakt niet uit wanneer je wilt inzetten.
+          </p>
+          <a href="#" class="themeBtn">MEER INFO OVER ALPHABETS ></a>
+        </div>
+      </div>
+    </section>
+    <!-- OverAll Section Close -->
+
+    <!-- profit Section Start -->
+    <section class="overall second-overall">
+      <div class="about-inner">
+
+
+        <div class="right-side">
+          <h2>Profiteer van quoteringen</h2>
+          <p>
+            Ons superieure algoritme met ongekende rekenkracht legt de
+            verschillen in quoteringen tussen wedkantoren bloot. Vergelijk en
+            kies de beste opties om je winstkansen te vergroten.
+          </p>
+          <a href="#" class="themeBtn">MEER INFO OVER betrouwbaarheid ALPHABETS ></a>
+        </div>
+        <img src="./assest/images/about-one.svg" alt="about-one" />
+      </div>
+    </section>
+    <!-- profit Section Close -->
+
+    <!-- Graph Section -->
+    <section class="graph">
+      <h2>Deepdive in alphabets</h2>
+      <img src="assest/images/graph.svg" alt="Graph Image">
+      <div class="graph-button">
+        <a href="#" class="themeBtn">MEER INFO OVER deepdive in ALPHABETS ></a>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <p>Copyright © 2023 Alphabetting B.V. Alle rechten voorbehouden.</p>
+    <div>
+
+      <a href="/privacy">Privacy</a> |
+      <a href="#">Algemene Voorwaarden</a> |
+      <a href="#">Cookies</a>
+
+    </div>
+
+
+  </footer>
+
+  <!-- Sign up Model -->
+  <div id="Signup" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Sign Up</h2>
+      </div>
+      <div class="modal-body">
+        <div class="field">
+          <input type="name" id="name" placeholder="First Name" required>
+          <input type="name" id="name" placeholder="Last Name" required>
+          <input type="email" id="email" placeholder="E-mail" required>
+          <input type="password" id="password" placeholder="Password" required class="eye-icon">
+          <input type="password" id="c-password" placeholder="Confirm Password" required>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="sign-up-button">Sign up</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login Model -->
+  <div id="Login" class="modal">
+    <div class="modal-content login-model">
+      <div>
+        <div class="modal-header">
+          <span class="close1">&times;</span>
+          <h2>LogIn</h2>
+        </div>
+        <div class="modal-body">
+          <div class="field">
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="password" id="password" placeholder="Password" required class="eye-icon">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="sign-up-button">LogIn</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="assest/js/script.js" defer=""></script>
+</body>
+
+</html>

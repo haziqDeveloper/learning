@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link href="assest/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="assest/css/responsive.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    .row-dflex {
+      display: flex;
+    }
+
+    .col-xl {
+      flex-basis: 50%;
+    }
+
+    #pay-form {
+      background: #ffffff;
+    }
+
+    .form-group input {
+      border: 1px solid #adadad;
+      border-radius: 5px;
+      height: 45px;
+      margin-top: 15px;
+    }
+
+    .form-group label {
+      color: #000000;
+      font-size: 20px;
+    }
+
+    .ds-blk {
+      display: grid;
+    }
+
+    .ds-blk input {
+      width: 90%;
+    }
+
+    .form-group.gender-form input {
+      margin-right: 12px;
+      height: auto;
+    }
+
+    .form-group.gender-form label {
+      margin-right: 12px;
+    }
+
+    .form-group .card {
+      border: 1 solid #adadad;
+      border-radius: 10px;
+    }
+
+    .card>.list-group:last-child {
+      border-bottom-width: 0;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    .card>.list-group:first-child {
+      border-top-width: 0;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .card>.list-group {
+      border-top: inherit;
+      border-bottom: inherit;
+    }
+
+    .list-group {
+      padding-left: 0;
+    }
+
+    .list-group-flush>.list-group-item {
+      border-width: 0 0 10px;
+    }
+
+    .list-group-item:first-child {
+      border-top-left-radius: inherit;
+      border-top-right-radius: inherit;
+    }
+
+    .list-group-item {
+      position: relative;
+      display: block;
+      padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+      color: var(--bs-list-group-color);
+      text-decoration: none;
+      background-color: var(--bs-list-group-bg);
+      border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <section id="pay-form">
+    <div class="container">
+      <div class="row-dflex">
+        <div class="col-xl">
+          <div class="form-group ds-blk">
+            <label>What's your email?</label>
+            <input type="text" class="" placeholder="Enter Your Email" />
+          </div>
+          <div class="form-group ds-blk">
+            <label>Create a password</label>
+            <input type="text" class="" placeholder="Create a password" />
+          </div>
+          <div class="form-group ds-blk">
+            <label>What's should we call you?</label>
+            <input type="text" class="" placeholder="Enter a profile name" />
+          </div>
+          <span class="text-apr">This appear on your profile.</span>
+        </div>
+        <div class="col-xl">
+          <div class="form-group dob_birth">
+            <label>What's should we call you?</label><br />
+            <input type="text" class="" placeholder="DD" />
+            <select>
+              <option value="">Month</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <input type="text" class="" placeholder="YYYY" />
+          </div>
+
+          <div class="form-group gender-form">
+            <div>
+              <label>What your gender?</label><br />
+              <input type="radio" id="radio01-01" name="demo01" /><label for="radio01-01">Male</label>
+              <input type="radio" id="radio01-02" name="demo01" /><label for="radio01-02">Female</label>
+              <input type="radio" id="radio01-03" name="demo01" /><label for="radio01-03">Non-binary</label>
+              <input type="radio" id="radio01-03" name="demo01" /><label for="radio01-03">other</label>
+              <input type="radio" id="radio01-03" name="demo01" /><label for="radio01-03">Prefer not to say</label>
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <div class="card" style="width: 18rem;">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="assest/js/script.js" defer=""></script>
+</body>
+
+</html>
