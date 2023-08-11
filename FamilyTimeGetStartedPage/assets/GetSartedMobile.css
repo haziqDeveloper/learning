@@ -1,0 +1,486 @@
+/** @format */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Roboto";
+}
+.dl-flex {
+	display: grid;
+	grid-auto-flow: row;
+	gap: 1%;
+	justify-items: center;
+}
+/* Choose Subscription Plan */
+.subscription-section {
+	background: rgba(26, 165, 207, 0.06);
+	padding: 35px 0;
+}
+.subscription {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.subscription-heading h1 {
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 43px;
+	color: #000000;
+	width: 90%;
+	margin: 0 auto;
+}
+.subscription-packages {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin: 35px 0 10px;
+	flex-direction: column;
+}
+.subscription-section .andriod-ios-icon {
+	margin-bottom: 30px;
+}
+.package {
+	width: 90%;
+	margin: 0 auto 25px;
+	border: 1px solid #ffbb00;
+	border-radius: 16px;
+}
+.purple-package {
+	border: 1px solid #8855ff;
+}
+.skyblue-package {
+	color: #ffffff;
+	background-color: #0099ff;
+	border: 1px solid #0099ff;
+}
+.skyblue-package .package-heading {
+	position: relative;
+	background: #21a6ff;
+}
+.most-popular {
+	position: absolute;
+	top: -4px;
+	right: -2px;
+	width: 88px;
+}
+.skyblue-package .package-heading h2,
+.skyblue-package .package-heading h3,
+.skyblue-package .package-heading p {
+	color: #ffffff;
+}
+.skyblue-package .trial-button {
+	color: #0099ff;
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+}
+.purple-package .package-heading {
+	background: rgba(136, 85, 255, 0.1);
+}
+.purple-package .trial-button {
+	border: 1px solid #8855ff;
+	background: #8855ff;
+}
+.blue-package {
+	border: 1px solid #0055ff80;
+}
+.blue-package .package-heading {
+	background: rgba(0, 85, 255, 0.1);
+}
+.blue-package .trial-button {
+	border: 1px solid #0055ff;
+	background: #0055ff;
+}
+.package-heading {
+	padding: 30px 0;
+	background: rgba(255, 187, 0, 0.1);
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+.package-heading h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 43px;
+	color: #36383b;
+}
+.package-heading h3 {
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+	color: #36383b;
+	/* margin: 30px 0; */
+}
+.package-heading p {
+	font-weight: 400;
+	font-size: 18px;
+	color: #6d6d6d;
+}
+.package-devices {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 0 0;
+}
+.package-devices p {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: 12px;
+}
+.package-button {
+	padding: 22px 15px 30px;
+}
+.trial-button {
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	background: #ffbb00;
+	border: 1px solid #ffbb00;
+	border-radius: 12px;
+}
+.package-button .after-charge {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 17px;
+}
+/* Premium Features*/
+.premium {
+	padding: 53px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.premium h2 {
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 43px;
+	text-align: center;
+	color: #000000;
+	width: 90%;
+	margin: 0 auto;
+}
+.features {
+	width: 90%;
+	margin: 23px auto 0;
+}
+.premium-features {
+	padding: 22px 30px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	border: 1px solid #e1eaef;
+	border-radius: 16px;
+	margin: 0 0 25px;
+	flex-direction: column;
+	justify-content: center;
+}
+.premium-features p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	color: #494949;
+}
+.premium-features h3 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 43px;
+}
+.premium-features img {
+	width: 50px;
+	margin: 0 auto 10px;
+}
+.features-button {
+	color: #ffffff;
+	padding: 14px 50px;
+	margin-top: 40px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	border: 1px solid #1aa5cf;
+	border-radius: 12px;
+	background-color: #1aa5cf;
+	cursor: pointer;
+}
+/* Compatibility */
+.compatibility-section {
+	padding: 59px 30px 90px;
+	background: rgba(26, 165, 207, 0.06);
+	text-align: center;
+}
+.compatibility-section h2 {
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 43px;
+	width: 100%;
+	max-width: 870px;
+	margin: 0 auto;
+}
+.compatibility-images {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 7% 4%;
+	justify-content: center;
+	margin: 41px 0 0;
+	width: 100%;
+}
+.compatibility-images img {
+	width: 152px;
+}
+/* Call to ACtion Section */
+.call-to-action {
+	background-color: #1aa5cf;
+	background-image: url(./images/call-to-action-bg.png);
+	color: #fff;
+	padding: 80px 30px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.call-to-action h2 {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 43px;
+	margin: 0 0 24px;
+	/* width: 90%; */
+}
+.call-to-action p {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	margin: 0 0 31px;
+}
+.call-to-action a {
+	background: #ffffff;
+	border-radius: 12px;
+	padding: 15px 0px;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: #1aa5cf;
+	text-decoration: none;
+	display: block;
+	margin: 31px auto 40px;
+	/* width: 319px; */
+}
+.andriod-ios-icon {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+.andriod-icons {
+	margin-right: 30px;
+}
+.andriod-ios-icon h3 {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 0px;
+}
+.andriod-ios-icon img {
+	margin-bottom: 15px;
+}
+/* Faqs Section */
+section.faq_new {
+	padding: 55px 30px;
+	text-align: center;
+	font-family: "Roboto";
+}
+section.faq_new h2 {
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 48px;
+	color: #000000;
+	margin: 0 0 26px;
+}
+.faq-main-div {
+	width: 90%;
+	margin: 0 auto;
+	display: unset;
+}
+section.faq_new img {
+	width: 80%;
+	text-align: center;
+}
+
+.faqs {
+	cursor: pointer;
+	padding: 20px 48px 20px 20px;
+	width: 100%;
+	text-align: left;
+	transition: 0.4s;
+	border: 0;
+	border-radius: 16px;
+	background: #ffffff;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #36383b;
+}
+.active,
+.faqs:hover {
+	background-color: #fff;
+}
+
+.faqs:after {
+	content: url(./images/PlusSign.png);
+	position: absolute;
+	top: 20px;
+	right: 33px;
+}
+.active:after {
+	content: url(./images/MinusSign.png);
+	top: 14px;
+}
+.panel {
+	padding: 0 30px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	border-radius: 16px;
+}
+.faq {
+	margin-bottom: 25px;
+	position: relative;
+	border: 1px solid #e1eaef;
+	border-radius: 16px;
+	text-align: left;
+}
+.faq p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #36383b;
+	margin-top: 0;
+	padding-bottom: 20px;
+}
+/* Feature SEction */
+.feature-action {
+	background: #f1fafc;
+	padding: 100px 0px 40px;
+}
+.feature-main-div {
+	width: 90%;
+	margin: 0 auto;
+	gap: 1%;
+}
+.feature {
+	background: #ffffff;
+	border: 1px solid #e1eaef;
+	border-radius: 16px;
+	position: relative;
+	padding: 17px 17px 27px;
+	margin: 0 13px 64px;
+	font-family: "Roboto";
+	text-align: center;
+	width: 100%;
+	/* max-width: 305px; */
+}
+.feature img {
+	width: 82px;
+	position: absolute;
+	top: -49px;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
+.feature h3 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 35px;
+	color: #36383b;
+	margin: 30px 0 10px;
+}
+.feature p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	color: #36383b;
+}
+/* REview Section */
+.reviews-action {
+	padding: 60px 0px 100px;
+	font-family: "Roboto";
+	text-align: center;
+}
+.reviews-action h2 {
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 43px;
+	color: #000000;
+	margin: 0 0 40px;
+}
+.review {
+	border: 1px solid #e1eaef;
+	border-radius: 12px;
+	text-align: left;
+	padding: 15px;
+	width: 99%;
+}
+.review p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	color: #494949;
+	margin: 0;
+}
+.review .dl-flex {
+	justify-content: flex-start;
+	display: flex;
+}
+.review-img {
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+.review .review-p {
+	margin-top: 20px;
+}
+.review-main-div {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* REviews New Code */
+.reviews-action .slick-dots li button:before {
+	font-family: slick;
+	font-size: 13px;
+	line-height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	content: "•";
+	text-align: center;
+	opacity: 0.25;
+	color: #1aa5cf;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.reviews-action .slick-dots li.slick-active button:before {
+	opacity: 0.75;
+	color: #1aa5cf;
+}
+.reviews-action .slick-dots li {
+	margin: 0 3px;
+}
+.reviews-action .slick-dots {
+	bottom: -60px;
+}
